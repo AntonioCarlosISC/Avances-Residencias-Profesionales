@@ -1,13 +1,13 @@
 @extends('adminlte::page')
 
-@section('title', 'Dashboard')
+@section('title', 'Administración')
 
 @section('content_header')
-    <h1>Estado de mantenimiento</h1>
+    <h1>Registrar Usuarios</h1>
 @stop
 
 @section('content')
-    <p>(Aquí se mostrará el inventario y su estado de mantenimiento)</p>
+    <p></p>
 @stop
 
 @section('css')

@@ -21,6 +21,10 @@ Route::get('/mantenimiento', function () {
     return view('mantenimiento');
 });
 
+Route::get('/impresoras', function (){
+    return view('impresoras');
+});
+
 Route::get('/tecnico', function () {
     return view('tecnico');
 });
@@ -31,6 +35,10 @@ Route::get('/admin', function () {
 
 Route::get('/capturar', function () {
     return view('capturarticket');
+});
+
+Route::get('/registrar', function () {
+    return view('registrar_usuarios');
 });
 
 Route::get('/dashboard', function () {
