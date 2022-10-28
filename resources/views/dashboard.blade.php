@@ -3,11 +3,13 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-    <h1>Estado de mantenimiento</h1>
+    <h1>Redirección</h1>
 @stop
 
 @section('content')
-    <p>(Aquí se mostrará el inventario y su estado de mantenimiento)</p>
+    <p>(Al agregarse los roles se redirigirá a la pantalla principal del usuario)</p>
+    <p></p>
+    <a class="btn btn-primary" href="registrar" role="button">CRUD usuarios</a>
 @stop
 
 @section('css')

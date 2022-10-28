@@ -13,8 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+/*Route::get('/', function () {
+    return('home');
+});*/
+
+Route::get('/add_user', function () {
+    return view('agregar_u');
 });
 
 Route::get('/mantenimiento', function () {
@@ -41,7 +45,7 @@ Route::get('/registrar', function () {
     return view('registrar_usuarios');
 });
 
-Route::get('/dashboard', function () {
+Route::get('/', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
