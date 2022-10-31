@@ -7,19 +7,21 @@
 @stop
 
 @section('content')
+
+<form action="" method="post">
   <div class="mb-3">
     <label for="exampleFormControlInput1" class="form-label">Ingrese nombre completo</label>
-    <input type="string" class="form-control" id="exampleFormControlInput1" >
+    <input type="text" class="form-control" id="nombre" value="">
   </div>
   
   <div class="mb-3">
     <label for="exampleFormControlInput1" class="form-label">Ingrese nombre de usuario</label>
-    <input type="string" class="form-control" id="exampleFormControlInput1">
+    <input type="text" class="form-control" id="usuario" value="">
   </div>
   
   <div>
   <label for="exampleInputEmail1" class="form-label">Tipo de Usuario</label>
-  <select class="form-select" aria-label="Default select example">
+  <select class="form-select" aria-label="tipo_user" id="tipo">
     <option selected>Seleccionar</option>
     <option value="administrador">Administrador</option>
     <option value="capturista">Capturista</option>
@@ -28,17 +30,18 @@
 
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-        <input type="password" class="form-control" id="psswd">
+        <input type="password" class="form-control" id="psswd" value="">
     
         <label for="exampleInputPassword1" class="form-label">Confirmar contraseña</label>
-        <input type="password" class="form-control" id="psswd2">
+        <input type="password" class="form-control" id="psswd2" value="">
     </div>
-
+   
   </select>
   </div>
   <p></p>
   
-  <a class="btn btn-outline-success" href="#" role="button">Agregar Usuario</a>
+  <button type="submit" class="btn btn-success">Agregar Usuario</button>
+</form>
   <a class="btn btn-outline-danger" href="registrar" role="button">Cancelar</button></a>
 @stop
 
