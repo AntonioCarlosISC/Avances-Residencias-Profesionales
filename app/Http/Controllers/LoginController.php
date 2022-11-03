@@ -20,5 +20,9 @@ class LoginController extends Controller
         if($tipo_usuario == 'tecnico'){
            return redirect('tecnico');
         }
+
+        if($tipo_usuario == 'programador'){
+            return redirect('programador');
+        }
     }
 }

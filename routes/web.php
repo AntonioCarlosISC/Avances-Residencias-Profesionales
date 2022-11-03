@@ -33,6 +33,10 @@ Route::resource('capturista', 'App\Http\Controllers\CapturistaController');
 Route::resource('tecnico', 'App\Http\Controllers\TecnicoController');
 
 
+Route::resource('programador', 'App\Http\Controllers\ProgramadorController');
+
+
+
 
 Route::resource('tipo', 'App\Http\Controllers\LoginController');
 
