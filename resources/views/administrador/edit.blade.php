@@ -37,7 +37,7 @@
 
         <div class="mb-3">
             <label for="" class="form-label">Confirmar contraseña</label>
-            <input id="cpassword" name="cpassword" type="text" class="form-control" tabindex="5">
+            <input type="password" id="cpassword" name="cpassword" type="text" class="form-control" tabindex="5">
         </div>
         
         <button type="submit" class="btn btn-success">Actualizar</button>

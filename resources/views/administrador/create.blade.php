@@ -38,7 +38,7 @@
 
         <div class="mb-3">
             <label for="" class="form-label">Confirmar contraseña</label>
-            <input id="cpassword" name="cpassword" type="text" class="form-control" tabindex="5">
+            <input type="password" id="cpassword" name="cpassword" type="text" class="form-control" tabindex="5">
         </div>
         <a href="/usuarios" class="btn btn-danger" tabindex="5">Cancelar</a>
         <button type="submit" class="btn btn-success" tabindex="4">Agregar Usuario</button>

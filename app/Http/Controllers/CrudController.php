@@ -42,7 +42,19 @@ class CrudController extends Controller
         $usuarios->email = $request->get('usuario');
         $usuarios->t_user = $request->get('t_user');
         $usuarios->password = Hash::make($request->get('password'));
-        
+
+        /*if($request->get('t_user') == 'administrador'){
+            $user->assingRole('administrador');
+        }
+        if($request->get('t_user') == 'capturista'){
+            $user->assingRole('capturista');
+        }
+        if($request->get('t_user') == 'tecnico'){
+            $user->assingRole('tecnico');
+        }
+        if($request->get('t_user') == 'programador'){
+            $user->assingRole('programador');
+        }*/
         
         $usuarios->save();
 

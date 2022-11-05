@@ -35,7 +35,7 @@ Route::resource('tecnico', 'App\Http\Controllers\TecnicoController');
 
 Route::resource('programador', 'App\Http\Controllers\ProgramadorController');
 
-
+Route::resource('capturarticket','App\Http\Controllers\LevantarTicketController');
 
 
 Route::resource('tipo', 'App\Http\Controllers\LoginController');
