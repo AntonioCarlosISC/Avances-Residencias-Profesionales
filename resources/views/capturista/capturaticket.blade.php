@@ -30,8 +30,10 @@
 
         <label class="form-label">Extensión</label>
         <input type="text" class="form-control" id="extension" name="extension">
+        <br>
 
         <label class="form-control">Documeto de solicitud</label>
+        <br>
 
         <button type="submit" class="btn btn-success">Generar Ticket</button>
         <a href="/capturista" class="btn btn-danger">Cancelar</a>
